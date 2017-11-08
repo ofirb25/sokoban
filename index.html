@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SOKOBAN</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body onload="initGame()" onkeydown="checkKey(event)">
+    <div class="main">
+        <h1>SOKOBANGA!#$</h1>
+        <div>No. Of Steps:
+            <span class="stepCount">0</span>
+        </div>
+        <div class="status"></div>
+        <button onclick="initGame()">reset Level</button>        
+        <table >
+            <tbody class="board"></tbody>
+        </table>
+    </div>
+    <script src="js/levelMaker.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
